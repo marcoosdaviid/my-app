@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Financeiro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Controle Financeiro Pessoal</h1>
+  </header>
+
+  <main>
+    <section class="cards">
+      <div class="card"><h2>Receita Total</h2><p id="receita-total">R$ 0</p></div>
+      <div class="card"><h2>Custo Total</h2><p id="custo-total">R$ 0</p></div>
+      <div class="card"><h2>Saldo do Mês</h2><p id="saldo-mes">R$ 0</p></div>
+      <div class="card"><h2>Saldo Acumulado</h2><p id="saldo-acumulado">R$ 0</p></div>
+    </section>
+
+    <section>
+      <h2>Projeção Próximos 6 Meses</h2>
+      <ul id="projecao-6"></ul>
+    </section>
+
+    <section>
+      <h2>Projeção Próximos 12 Meses</h2>
+      <ul id="projecao-12"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
